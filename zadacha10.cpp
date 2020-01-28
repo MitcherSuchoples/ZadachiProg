@@ -15,7 +15,7 @@ int main()
 	x = 1;
 	if (b > 0) {
 		for (i = 0; i < b; i++)
-			x = x * a;
+			x = x * a; // x *=a
 		cout << x;
 	
 	}
